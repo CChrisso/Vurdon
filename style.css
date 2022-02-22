@@ -11772,3 +11772,13 @@ section#contact form#contactForm :-ms-input-placeho der {
 .img-fluid-6{
   height: 6.2cm
 }
+.my-3{
+  margin-left: auto;
+}
+
+div.col-md-12 img{
+  padding-top: none;
+  margin-top: none;
+  width: 200px;
+  border-radius: 100px;
+}
