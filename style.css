@@ -11779,6 +11779,7 @@ section#contact form#contactForm :-ms-input-placeho der {
 div.col-md-12 img{
   padding-top: none;
   margin-top: none;
-  width: 200px;
-  border-radius: 100px;
+  width: 20%;
+  border-radius: 20%;
+  column-gap: none;
 }
