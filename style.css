@@ -7100,7 +7100,8 @@ textarea.form-control-lg {
 }
 
 .align-items-center {
-  align-items: center !important;
+  margin-left: 10px !important;
+  margin-right: none;
 }
 
 .align-items-baseline {
@@ -11790,4 +11791,8 @@ div.col-md-12 img{
   height: 160px;
   border-radius: 50%;
   align-items: center;
+}
+.team-member{
+  position: relative;
+  margin-left: none;
 }
