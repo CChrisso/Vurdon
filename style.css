@@ -132,6 +132,7 @@ h4, .h4 {
   h4, .h4 {
     font-size: 1.5rem;
     font-family: 'Permanent Marker', cursive;
+    color: #9e1111;
   }
 }
 
@@ -664,6 +665,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  background-color: #4d4d4d;
 }
 .row > * {
   flex-shrink: 0;
@@ -2496,8 +2498,8 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
 }
 .form-check-input:checked {
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #9e1111;
+  border-color: #9e1111;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -2506,8 +2508,8 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
 }
 .form-check-input[type=checkbox]:indeterminate {
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #9e1111;
+  border-color: #9e1111;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 .form-check-input:disabled {
@@ -2567,15 +2569,16 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+          
 }
 .form-range:focus {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: 0 0 0 1px #9e1111, 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: 0 0 0 1px #9e1111, 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -2613,7 +2616,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #ffc800;
+  background-color: #9e1111;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2635,7 +2638,7 @@ textarea.form-control-lg {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #dee2e6;
+  background-color: #4d4d4d;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -3025,9 +3028,9 @@ textarea.form-control-lg {
   border-color: #ffc800;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  color: #9e1111;
+  background-color: #4d4d4d;
+  border-color: #4d4d4d;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3933,7 +3936,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #ffc800;
+  color: #9e1111;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3943,7 +3946,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #cca000;
+  color: #9e1111;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4046,6 +4049,7 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  font-weight;: font-family: 'Permanent Marker', cursive;;
 }
 .navbar-nav {
   display: flex;
@@ -4053,6 +4057,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-family: 'Permanent Marker', cursive;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -7763,7 +7768,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: white !important;
   margin-bottom: none;
   padding-bottom: none
 }
@@ -7831,7 +7836,6 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-dark {
@@ -11291,17 +11295,20 @@ body {
 
 p {
   line-height: 1.75;
-  font-family: 'Merriweather Sans', sans-serif;
+  color: white ;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .page-section {
   padding: 6rem 0;
+  background-color: #4d4d4d;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
   font-family: 'Permanent Marker', cursive;
+  color: #9e1111;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11358,7 +11365,7 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: 'Permanent Marker', cursive;
   font-size: 0.95rem;
-  color: #fff;
+  color: #9e1111;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11492,15 +11499,18 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
+  color: white;
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
+  background-color: #4d4d4d;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 3rem;
+  color: #9e1111;
 }
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
@@ -11615,7 +11625,7 @@ header.masthead .masthead-heading {
 }
 .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
   margin-top: 0;
-  color: inherit;
+  color: #9e1111;
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
   text-transform: none;
@@ -11688,6 +11698,7 @@ header.masthead .masthead-heading {
     width: 170px;
     height: 170px;
     margin-left: -85px;
+    background-color: #4d4d4d;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     margin-top: 40px;
@@ -11795,6 +11806,7 @@ div.col-md-12 img{
   height: 160px;
   border-radius: 50%;
   align-items: center;
+  background-color: #9e1111;
 }
 .team-member{
   position: relative;
@@ -11805,7 +11817,9 @@ h2.text-uppercase{
 }
 h4.subheading{
   font-family: 'Merriweather Sans', sans-serif;
+  color: #4d4d4d;;
 }
 .timeline-image{
   font-family: 'Merriweather Sans', sans-serif;
 }
+p.car-text{}
