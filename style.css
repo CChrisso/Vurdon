@@ -665,7 +665,9 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
-  background-color: #4d4d4d;
+  background-image: url(assets/img/background-smoke.jpg);
+  background-repeat: center;
+  background-size: cover;
 }
 .row > * {
   flex-shrink: 0;
@@ -2587,7 +2589,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #ffc800;
+  background-color: #4d4d4d;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -11304,6 +11306,7 @@ p {
   background-image: url(assets/img/background-smoke.jpg);
   background-position: center;
   background-size: cover;
+  background-blend-mode: screen;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11485,7 +11488,6 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -11507,7 +11509,8 @@ header.masthead .masthead-heading {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
-  background-color: #4d4d4d;
+  background-image: url(assets/img/background-smoke.jpg);
+  background-size: cover;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
   font-size: 3rem;
@@ -11729,7 +11732,6 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -11809,6 +11811,7 @@ div.col-md-12 img{
   border-radius: 50%;
   align-items: center;
   background-color: #9e1111;
+  margin-top: 5px;
 }
 .team-member{
   position: relative;
@@ -11823,4 +11826,7 @@ h4.subheading{
 }
 .timeline-image{
   font-family: 'Merriweather Sans', sans-serif;
+}
+.timeline > li .timeline-image {
+border: none;
 }
