@@ -11295,13 +11295,15 @@ body {
 
 p {
   line-height: 1.75;
-  color: white ;
+  color: #9e1111 ;
   font-family: 'Permanent Marker', cursive;
 }
 
 .page-section {
   padding: 6rem 0;
-  background-color: #4d4d4d;
+  background-image: url(assets/img/background-smoke.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11822,4 +11824,3 @@ h4.subheading{
 .timeline-image{
   font-family: 'Merriweather Sans', sans-serif;
 }
-p.car-text{}
