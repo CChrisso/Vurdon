@@ -668,6 +668,8 @@ progress {
   background-image: url(assets/img/background-smoke.jpg);
   background-repeat: center;
   background-size: cover;
+  background: transparent;
+  border: none;
 }
 .row > * {
   flex-shrink: 0;
@@ -3026,8 +3028,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #4d4d4d;
+  border-color: #4d4d4d;
 }
 .btn-primary:hover {
   color: #9e1111;
@@ -11307,6 +11309,7 @@ p {
   background-position: center;
   background-size: cover;
   background-blend-mode: screen;
+  border: transparent;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11419,9 +11422,9 @@ header.masthead {
   color: #fff;
   background-image: url(assets/img/header-bg.jpg);
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11472,11 +11475,12 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: #4d4d4d;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
+  background-size: cover;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
@@ -11829,4 +11833,7 @@ h4.subheading{
 }
 .timeline > li .timeline-image {
 border: none;
+}
+.portfolio-hover{
+  background: #4d4d4d;
 }
