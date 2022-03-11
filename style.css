@@ -11300,12 +11300,11 @@ body {
 p {
   line-height: 1.75;
   color: #9e1111 ;
-  font-family: 'Permanent Marker', cursive;
 }
 
 .page-section {
   padding: 6rem 0;
-  background-image: url(assets/img/background-smoke.jpg);
+  background-color: gray;
   background-position: center;
   background-size: cover;
   background-blend-mode: screen;
@@ -11385,7 +11384,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: gray;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11836,4 +11835,7 @@ border: none;
 }
 .portfolio-hover{
   background: #4d4d4d;
+}
+.footer{
+  background-color: whitesmoke;
 }
